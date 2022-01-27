@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background:#363535;
+
+}
+span.test{
+    color: #61dafb
+}
+.content{
+    width: 100%;
+    display: flex
+}
+iframe{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: #61dafb 0 0 15px -6px
+}
+.title{
+    margin:35px auto;
+    text-align: center;
+    color: rgba(199,250,100);
+    font-size: 2.5rem;
+    //text-shadow: black 0px 0px 3px ;
+}
+footer{
+    text-align: center;
+    padding: 25px 0;
+}
+footer p, p a{
+    color: rgba(199,250,100);
+    font-size: 1.2rem
+}
+p a{
+    text-decoration: none;
+
+}
